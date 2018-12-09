@@ -1,0 +1,38 @@
+#submit{
+    margin-left: 55%;
+}
+#back{
+    margin-left: 5%;
+}
+#school{
+    margin-left: 46%;
+}
+
+#watermark {
+    position:absolute;
+    z-index:-1;
+    background:white;
+    display:block;
+    min-height:50%; 
+    min-width:50%;
+    margin-top:-45%;
+  }
+#background{
+    color:#d0d0d0;
+    font-size:130px;
+    transform:rotate(300deg);
+    -webkit-transform:rotate(300deg);
+}
+h1{
+    margin-left:43%;
+    font-style: italic;
+}
+.details{
+    float:right;
+}
+.Instructions{
+    margin-left:43%;
+}
+label{
+    color:green;
+}
