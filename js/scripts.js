@@ -13,7 +13,7 @@ function scoreCalculator(userValue) {
 
 // USER INTERFACE LOGIC
 $(function() {
-  $("#start-btn").click(function(event) {
+  $("#start-btn").click(function() {
     event.preventDefault();
     var userFirstName = $("#firstName").val();
     var userSecondName = $("#secondName").val();
@@ -34,7 +34,7 @@ $(function() {
     $("#form1").show();
     $("#form2").hide();
   })
-  $("#submit").click(function(event) {
+  $("#submit").click(function() {
     event.preventDefault();
     $("#score").show();
     $("#form2").hide();
@@ -46,9 +46,9 @@ $(function() {
     } else {
       $(".name-display").text(`Congratulations!`);
     }
-    $(".scoreDisplay").text(sum + "/20");
+    $(".scoreDisplay").text(sum + "/60");
   })
-  $("#retake").click(function(event) {
+  $("#retake").click(function() {
     event.preventDefault();
     location.reload();
   })

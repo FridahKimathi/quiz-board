@@ -8,8 +8,6 @@
     margin-left: 46%;
 }
 
-
-
 #watermark {
     position:absolute;
     z-index:-1;
@@ -39,3 +37,74 @@ h1{
 label{
     color:green;
 }
+
+ 
+  .container {
+    text-align: center;
+  }
+  form {
+    padding: 30px;
+    padding-bottom: 15px;
+    width: 60%;
+    border-radius: 10px;
+    margin: 2% auto;
+    position: relative;
+  }
+  
+  .form-group {
+    /* line-height: 20px; */
+    text-align: left;
+  }
+  #no-name {
+    display: none;
+    margin-top: 2%;
+  }
+  #no-name span {
+    color: green;
+  }
+  #start-btn, #retake, #submit {
+    color: white;
+    background: green;
+    outline-style: none;
+  }
+  #start-btn:hover,
+  #retake:hover,
+  #submit:hover {
+    background: white;
+    color: green;
+    border: 1px solid green;
+  }
+   .inputs {
+    position: relative;
+    left: 2%;
+  }
+  
+  }
+  .arrow:hover {
+    font-size: 18px;
+    cursor: pointer;
+    color: green;
+  }
+
+  input[type=radio]:checked + .circle {
+    background: green;
+  }
+  
+  .fa-arrow-right {
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+  }
+ 
+  #form2,#form1 {
+    display: none;
+  }
+  
+  #score {
+    display: none;
+  } 
+ 
+  
+
+  
+  
