@@ -8,6 +8,8 @@
     margin-left: 46%;
 }
 
+
+
 #watermark {
     position:absolute;
     z-index:-1;
@@ -17,6 +19,7 @@
     min-width:50%;
     margin-top:-45%;
   }
+  
 #background{
     color:#d0d0d0;
     font-size:130px;
