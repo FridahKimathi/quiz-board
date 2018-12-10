@@ -12,21 +12,21 @@
         <script src="js/scripts.js"></script>
     </head>
     <body>
-        <div class="row">
-       
-    <div class="Instructions">
-    <h2>Instructions:</h2>
-    <ul>
+     
+      <h1>JavaScript Quiz</h1>
+      <div class="Instructions">
+      <h2>Instructions:</h2>
+      <ul>
         <li>The quiz is 30 minutes</li>
         <li>Answer all the question</li>
         <li>Submit the quiz once once done</li>
         <li>Each question carries 20 marks</li>
     </ul>
     </div>
-        <h1>JavaScript Quiz</h1>
+    <div class="container">
         <form>
           <div id="intro">
-            <h4 class="mb-4">Java script Questions</h4>
+          
             <p></p>
             <div class="form-group">
               <label for="name">First Name*</label>
@@ -39,6 +39,7 @@
             <button id="start-btn" class="btn"> TAKE QUIZ</button>
             <p id="no-name" class="text-center mt-4">Please <span>ENTER</span> your name</p>
             <div class="details">
+                <p id="class"><strong>Select class:</strong></p>
                 <select>
                     <option>Form One</option>
                     <option>Form two</option>
@@ -51,6 +52,7 @@
                  </div>
           </div>
           <div id="form1">
+                <h4 class="mb-4">Java script Questions</h4>
             <div class="question1">
               <p>1. What is JavaScript?</p>
               <div class="inputs">
@@ -139,9 +141,8 @@
                 </div>
               </div>
             </div>
-            <div class="arrow" id="arrow-right" style="background-color:black;">
-              <i class="fas fa-arrow-right text-right">Next</i>
-            </div>
+              <butoon id="next" class="btn">NEXT</butoon>
+        
           </div>
           <div id="form2">
             <div class="question4">
@@ -245,6 +246,8 @@
     
           </div>
         </form>
-      
+      <div id="watermark">
+      <p id="background">JavaScript</p>
+      </div>
     </body>
 </html>
