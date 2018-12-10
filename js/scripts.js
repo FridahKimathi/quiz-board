@@ -36,8 +36,6 @@ $(document).ready(function() {
     $("#score").show();
     $("#form2").hide();
     scoreCalculator();
-    var userFirstName = $("#firstName").val();
-    var userSecondName = $("#secondName").val();
     if(sum <= 30) {
       $(".text center name-display").text(`Nice try!`);
       $("#nice-try").show();
