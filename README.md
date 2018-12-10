@@ -26,7 +26,7 @@
     CSS
     GIT
 ####  Link to the project:
-        
+        https://nkirotekim.github.io/quiz-board/
 
 
 MIT License
