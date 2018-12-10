@@ -39,8 +39,11 @@ $(function() {
     var userSecondName = $("#secondName").val();
     if(sum <= 30) {
       $(".name-display").text(`Nice try!`);
-    } else {
+      $("#nice-try").show();
+    }
+    else {
       $(".name-display").text(`Congratulations!`);
+      $("#congrats").show();
     }
     $(".scoreDisplay").text(sum + "/60");
   })
