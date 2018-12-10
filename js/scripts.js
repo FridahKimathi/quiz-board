@@ -12,7 +12,7 @@ function scoreCalculator(userValue) {
 
 
 // USER INTERFACE LOGIC
-$(function() {
+$(document).ready(function() {
   $("#start-btn").click(function() {
     event.preventDefault();
     var userFirstName = $("#firstName").val();
@@ -40,6 +40,8 @@ $(function() {
     if(sum <= 30) {
       $(".name-display").text(`Nice try!`);
       $("#nice-try").show();
+    } if(userValue.length == 0){
+        $(".all-questions").show();
     }
     else {
       $(".name-display").text(`Congratulations!`);
