@@ -17,11 +17,15 @@ $(document).ready(function() {
     event.preventDefault();
     var userFirstName = $("#firstName").val();
     var userSecondName = $("#secondName").val();
+    var UserDetails=$(".details").val();
     if(userFirstName.length === 0 || userSecondName.length === 0) {
       $("#no-name").show();
       $("#firstName").addClass("enter-name");
       $("#secondName").addClass("enter-name");
-    } else {
+    } if(UserDetails.length ===0){
+        $(".detail").show();
+    }
+    else {
       $("#intro").hide();
       $("#form1").show();
     }
@@ -38,13 +42,11 @@ $(document).ready(function() {
     var userFirstName = $("#firstName").val();
     var userSecondName = $("#secondName").val();
     if(sum <= 30) {
-      $(".name-display").text(`Nice try!`);
+      $(".text center name-display").text(`Nice try!`);
       $("#nice-try").show();
-    } if(userValue.length == 0){
-        $(".all-questions").show();
     }
     else {
-      $(".name-display").text(`Congratulations!`);
+      $(".text center name-display").text(`Congratulations!`);
       $("#congrats").show();
     }
     $(".scoreDisplay").text(sum + "/60");
