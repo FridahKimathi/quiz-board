@@ -17,15 +17,11 @@ $(document).ready(function() {
     event.preventDefault();
     var userFirstName = $("#firstName").val();
     var userSecondName = $("#secondName").val();
-    var UserDetails=$(".details").val();
     if(userFirstName.length === 0 || userSecondName.length === 0) {
       $("#no-name").show();
       $("#firstName").addClass("enter-name");
       $("#secondName").addClass("enter-name");
-    } if(UserDetails.length ===0){
-        $(".detail").show();
-    }
-    else {
+    } else {
       $("#intro").hide();
       $("#form1").show();
     }
